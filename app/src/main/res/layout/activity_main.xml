@@ -92,4 +92,17 @@
         android:onClick="onVerticalMode"
         android:text="竖向古风"
         android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:background="@drawable/shape_demo_bt"
+        android:onClick="showHistory"
+        android:text="历史记录"
+        android:textColor="#ffffff" />
 </LinearLayout>
