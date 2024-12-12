@@ -9,3 +9,12 @@
 /.idea/
 /freeline/
 ../build
+.project
+.settings/
+.classpath
+app/.classpath
+app/.project
+app/.settings/
+hwtxtreaderlib/.classpath
+hwtxtreaderlib/.project
+hwtxtreaderlib/.settings/
