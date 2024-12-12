@@ -108,6 +108,11 @@ public class DemoActivity extends AppCompatActivity {
         }
     }
 
+    public void showHistory(View view) {
+        Intent intent = new Intent(this, FileHistoryActivity.class);
+        startActivity(intent);
+    }
+
     private Boolean CheckPermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             // 安卓11，判断有没有“所有文件访问权限”权限
